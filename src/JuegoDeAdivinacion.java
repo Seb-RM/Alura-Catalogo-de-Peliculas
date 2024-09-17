@@ -14,7 +14,7 @@ public class JuegoDeAdivinacion {
 
             if (numeroDelUsuario == numeroGenerado) {
                 System.out.println("Felicidades, adivinaste el número en " + intentos + " intentos!");
-                break; // interrumpe el loop while
+                break;
             } else if (numeroDelUsuario < numeroGenerado) {
                 System.out.println("El número que escribiste es menor al número generado.");
             } else {
